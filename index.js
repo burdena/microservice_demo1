@@ -2,7 +2,8 @@ var express = require('express');
 var app = express();
 
 app.get('/hello', function (req, res) {
-  res.send('Hello World! - version 1.0.1');
+  res.send('Hello World! - version 1.0.2');
+  console.log(req.connection.remoteAddress, "/hello");
 });
 
 app.listen(3000, function () {
