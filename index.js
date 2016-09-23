@@ -7,5 +7,8 @@ app.get('/hello', function (req, res) {
 });
 
 app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
+  console.log('Example app listening on port 3000!\n');
 });
+
+
+microservice_demo1/Dockerfile
